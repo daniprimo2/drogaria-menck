@@ -13,7 +13,7 @@ public class UtilHtml {
 
     public static Map<String, String> construirParametrosHtml(ParametrosEmailRequest parametrosEmail) {
         Map<String, String> paransMap = new LinkedHashMap<>();
-        String nomeParticipante = "#nomeParticipante#";
+        String nomeParticipante = "#nomeUsuario#";
         String login = "#login#";
         String senha = "#senha#";
 

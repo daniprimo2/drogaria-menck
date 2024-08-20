@@ -42,7 +42,7 @@ public class UsuarioService {
 
             var corpoEmail = UtilHtml.emailHtmlToString("/templates/email/emailCredenciais.html",
                     UtilHtml.construirParametrosHtml(ParametrosEmailRequest.costruirParametrosCom(usuarioSalvo)));
-            emailService.enviarEmail("Credências de acesso ao POZYSCAN",
+            emailService.enviarEmail("Credências de acesso ao Sistema da Drogaria Menck",
                      corpoEmail,
                     usuario.getEmail());
             log.info("[END] - Usuario foi adicionado com sucesso.");
